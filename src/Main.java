@@ -5,6 +5,8 @@ public class Main {
 
         double wylosowana = (int)(Math.random()*10+1);
         System.out.println(wylosowana);
+
+        //dzien2
         //git init , git config  user.name user.email , git commit -m "jakas nazwa", git remote add origin , git push - u master
     }
 }

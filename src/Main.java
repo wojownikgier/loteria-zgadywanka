@@ -13,19 +13,25 @@ public class Main {
         // git push - u origin master
         //dzien2
         /*
-        typy proste zawsze z małej liczby . maja tylko wartość
+        typy proste zawsze z małej litery, mają tylko wartość
         logiczny: boolean
-        całkowite: byt shory long , int
-        liczby rzeciwiste: float duuble
+        całkowite: byte, short, int, long
+        rzeczywiste: float,double
         znakowy: char
 
-        typy złozone wasze wielka litera,
-        okiety które maja własnosci i metody
+        typy złożone zawsze pisane wielką literą
+        obiekty które mją wląsności i metody
          */
         System.out.println("zgadnij liczbe zakresu 1-10");
         Scanner klawiatura = new Scanner(System.in);
         int wpisanaliczba = klawiatura.nextInt();//wczytywamoe z klawiatury
-        System.out.println("wpisano z klawiatury"+wpisanaliczba);
-        4
+        System.out.println("wpisano z klawiatury "+wpisanaliczba);
+        if (wpisanaliczba == wylosowana) {//muwi to czy wpisałes poprawna liczbe
+            System.out.println("trafiona liczba");
+        }else {
+            System.out.println("Nie trafiono sprubuj ponownie");
+        }
+        String komunikat = wylosowana == wpisanaliczba ? "poprawnie":"niepoprawnie";//wypisuje text
+        System.out.println(komunikat);
     }
 }
